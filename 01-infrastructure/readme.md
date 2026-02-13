@@ -39,3 +39,23 @@ The domain controller represents a high-value asset in enterprise environments.
 
 All authentication attempts, successful or failed, will be logged here and later analyzed for detection engineering purposes.
 
+## Operating System Installation – DC01
+
+Operating System:
+Windows Server 2022 Standard Evaluation (Desktop Experience)
+
+The Desktop Experience version was selected to simplify configuration, event log inspection, and documentation.
+
+Administrator credentials were configured during installation.
+
+The system is now ready for network configuration and hostname standardization before Active Directory deployment.
+
+## Evidence
+
+### OS Version Selection
+
+![DC01 OS Selection](screenshots/05-dc01-os-selection.PNG)
+
+### Initial Server Login
+
+![DC01 Initial Login](screenshots/06-initial-login.PNG)
