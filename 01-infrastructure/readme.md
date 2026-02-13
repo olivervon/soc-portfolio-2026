@@ -59,3 +59,36 @@ The system is now ready for network configuration and hostname standardization b
 ### Initial Server Login
 
 ![DC01 Initial Login](screenshots/06-initial-login.PNG)
+
+## Network Configuration and Hostname Standardization
+
+The server was configured with a static IPv4 address prior to Active Directory deployment.
+
+Network configuration:
+
+- IP address: 192.168.100.10
+- Subnet mask: 255.255.255.0
+- Default gateway: none
+- Preferred DNS server: 192.168.100.10
+
+DNS was configured to point to itself in preparation for Active Directory Domain Services installation.
+
+The hostname was standardized to:
+
+DC01
+
+The server was rebooted to apply changes.
+
+## Evidence
+
+### Static IPv4 Configuration
+
+![dc01 static ip](screenshots/07-dc01-static-ip.PNG)
+
+### Hostname Configuration
+
+![dc01 hostname](screenshots/08-dc01-hostname.PNG)
+
+### IP Verification After Reboot
+
+![dc01 ip verification](screenshots/09-dc01-ip-verification.PNG)
