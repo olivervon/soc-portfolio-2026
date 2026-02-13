@@ -45,7 +45,7 @@ Host Network Adapter Configuration:
 
 ## Evidence
 
-![Internal Switch Created](screenshots/01-InternalSwitch-Created.PNG) 
+![Internal Switch Created](architecture/screenshots/01-InternalSwitch-Created.PNG) 
 ![Host IP Configured](screenshots/02-Host-IP-Configured.PNG)
 ![Host IP Verification](screenshots/03-Host-IP-Verification.PNG)
 
