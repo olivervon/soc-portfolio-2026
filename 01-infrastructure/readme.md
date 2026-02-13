@@ -92,3 +92,35 @@ The server was rebooted to apply changes.
 ### IP Verification After Reboot
 
 ![dc01 ip verification](screenshots/09-dc01-ip-verification.PNG)
+
+## Active Directory Deployment
+
+The Active Directory Domain Services role was installed on dc01.
+
+The server was promoted to Domain Controller by creating a new forest.
+
+Domain name:
+
+soclab.local
+
+Forest functional level:
+
+Windows Server 2016 (default configuration)
+
+The server automatically rebooted after promotion.
+
+dc01 now functions as:
+
+- Domain Controller
+- DNS Server
+- Central authentication authority
+
+## Evidence
+
+### AD DS Role Installation
+
+![ad ds role](screenshots/10-ad-ds-installed.PNG)
+
+### Domain Successfully Created
+
+![domain created](screenshots/11-domain-created.PNG)
