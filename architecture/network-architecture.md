@@ -4,8 +4,6 @@
 
 Design and deploy an isolated internal enterprise network in Hyper-V to simulate a realistic attack surface for SOC detection engineering.
 
----
-
 ## Network Design
 
 A dedicated internal virtual switch was created in Hyper-V to simulate a flat enterprise LAN environment.
@@ -25,8 +23,6 @@ This design allows:
 - Complete isolation from external networks
 - Controlled attack simulation
 
----
-
 ## Implementation Details
 
 Virtual Switch Configuration:
@@ -41,15 +37,11 @@ Host Network Adapter Configuration:
 - Default Gateway: None
 - DNS Server: None
 
----
-
 ## Evidence
 
 ![Internal Switch Created](screenshots/01-internal-switch-created.PNG) 
 ![Host IP Configured](screenshots/02-host-ip-configured.PNG)
 ![Host IP Verification](screenshots/03-host-ip-verification.PNG)
-
----
 
 ## Security Rationale
 
@@ -61,8 +53,6 @@ A flat internal network was intentionally selected to allow:
 - Log generation for detection validation
 
 Network segmentation is intentionally absent to simulate common enterprise misconfigurations and enable realistic attack chain progression.
-
----
 
 ## Key Takeaways
 
