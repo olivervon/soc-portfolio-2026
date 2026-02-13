@@ -124,3 +124,7 @@ dc01 now functions as:
 ### Domain Successfully Created
 
 ![domain created](screenshots/11-domain-created.PNG)
+
+### DNS Forward Lookup Zone
+
+![dns zone](screenshots/12-dns-zone-created.PNG)
