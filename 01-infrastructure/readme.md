@@ -158,3 +158,45 @@ These accounts will later be used to generate:
 ### Password Configuration
 
 ![weak password config](screenshots/14-weak-password-config.PNG)
+
+## Member Server Deployment – SRV01
+
+A secondary Windows Server was deployed to simulate a domain-joined member server.
+
+Configuration:
+
+- Hostname: SRV01
+- IP address: 192.168.100.20
+- DNS server: 192.168.100.10
+- Domain: soclab.local
+
+The server was successfully joined to the domain using domain administrator credentials.
+
+This system will later be used for:
+
+- Lateral movement simulation
+- Credential reuse scenarios
+- Privilege escalation testing
+- Multi-host log correlation
+
+## Evidence
+
+### SRV01 VM Created
+
+![srv01 vm created](screenshots/15-srv01-vm-created.PNG)
+
+### SRV01 Static IP Configuration
+
+![srv01 static ip](screenshots/16-srv01-static-ip.PNG)
+
+### SRV01 Hostname Configuration
+
+![srv01 hostname](screenshots/17-srv01-hostname.PNG)
+
+### Domain Join Confirmation
+
+![srv01 domain joined](screenshots/18-srv01-domain-joined.PNG)
+
+### Domain Login Verification
+
+![srv01 domain login](screenshots/19-srv01-domain-login.PNG)
