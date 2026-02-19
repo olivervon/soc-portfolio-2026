@@ -128,3 +128,33 @@ dc01 now functions as:
 ### DNS Forward Lookup Zone
 
 ![dns zone](screenshots/12-dns-zone-created.PNG)
+
+## Domain User Preparation for Attack Simulation
+
+An organizational unit named "users" was created to separate standard domain users from built-in system accounts.
+
+The following domain users were created for authentication and brute force testing:
+
+- johjoh
+- marsve
+- itsup
+
+Weak and predictable passwords were intentionally configured to simulate common enterprise misconfigurations.
+
+Password expiration was disabled to maintain controlled lab conditions.
+
+These accounts will later be used to generate:
+
+- Failed logon attempts (Event ID 4625)
+- Successful authentication events (Event ID 4624)
+- Credential abuse scenarios
+
+## Evidence
+
+### Organizational Unit and Domain Users Created
+
+![ou users](screenshots/13-ou-users-created.PNG)
+
+### Password Configuration
+
+![weak password config](screenshots/14-weak-password-config.PNG)
