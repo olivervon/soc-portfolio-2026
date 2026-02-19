@@ -11,7 +11,7 @@ DC01 will function as:
 - Central authentication authority
 - Primary log source for brute force detection
 
-## Virtual Machine Configuration – DC01
+## Virtual Machine Configuration - DC01
 
 Name: DC01  
 Generation: 2  
@@ -39,7 +39,7 @@ The domain controller represents a high-value asset in enterprise environments.
 
 All authentication attempts, successful or failed, will be logged here and later analyzed for detection engineering purposes.
 
-## Operating System Installation – DC01
+## Operating System Installation - DC01
 
 Operating System:
 Windows Server 2022 Standard Evaluation (Desktop Experience)
@@ -159,7 +159,7 @@ These accounts will later be used to generate:
 
 ![weak password config](screenshots/14-weak-password-config.PNG)
 
-## Member Server Deployment – SRV01
+## Member Server Deployment - SRV01
 
 A secondary Windows Server was deployed to simulate a domain-joined member server.
 
