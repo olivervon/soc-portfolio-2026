@@ -41,7 +41,8 @@ All authentication attempts, successful or failed, will be logged here and later
 
 ## Operating System Installation - DC01
 
-- Operating System: Windows Server 2022 Standard Evaluation (Desktop Experience)
+Operating System:
+- Windows Server 2022 Standard Evaluation (Desktop Experience)
 
 The Desktop Experience version was selected to simplify configuration, event log inspection, and documentation.
 
