@@ -75,7 +75,7 @@ DNS was configured to point to itself in preparation for Active Directory Domain
 
 The hostname was standardized to:
 
-DC01
+- DC01
 
 The server was rebooted to apply changes.
 
@@ -95,7 +95,7 @@ The server was rebooted to apply changes.
 
 ## Active Directory Deployment
 
-The Active Directory Domain Services role was installed on dc01.
+The Active Directory Domain Services role was installed on DC01.
 
 The server was promoted to Domain Controller by creating a new forest.
 
