@@ -6,8 +6,6 @@ Extend the on-prem attack chain into Azure by forwarding Windows Security logs t
 
 This phase transitions the lab from standalone AD logging to hybrid cloud monitoring.
 
----
-
 ## Azure Architecture
 
 On-Prem:
@@ -20,8 +18,6 @@ Azure:
 - Microsoft Sentinel enabled
 - Azure Arc enabled server: SRV01
 
----
-
 ## Azure Arc Onboarding
 
 SRV01 was onboarded to Azure Arc to allow hybrid management and monitoring.
@@ -33,8 +29,6 @@ Steps performed:
 - Verified status: Connected
 
 This allows Azure Monitor Agent to be installed for log forwarding.
-
----
 
 ## Current Status
 
