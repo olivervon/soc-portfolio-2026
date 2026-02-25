@@ -98,3 +98,9 @@ This demonstrates lateral movement using valid domain credentials.
 ### Evidence
 
 ![lateral movement srv01](screenshots/06-lateral-movement-srv01.PNG)
+
+### Detection Considerations
+
+A successful 4624 event on a secondary host from the same source IP following a brute force sequence is a strong indicator of lateral movement using valid accounts.
+
+Correlation between hosts is critical in SIEM detection logic.
