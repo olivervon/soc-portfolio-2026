@@ -39,3 +39,19 @@ This allows Azure Monitor Agent to be installed for log forwarding.
 ### Evidence
 
 ![srv01 arc connected](screenshots/01-srv01-arc-connected.PNG)
+
+## Data Collection Rule - Windows Security Log
+
+A custom Data Collection Rule (DCR) was created to forward Windows Security logs from SRV01 to Log Analytics.
+
+Configuration:
+- Data source: Windows Security log
+- Collection type: Custom
+- Target workspace: law-soc-lab
+- Assigned resource: SRV01 (Azure Arc)
+
+This enables cloud-based detection of authentication activity and credential dumping.
+
+### Evidence
+
+![dcr security log](screenshots/02-dcr-security-log.PNG)
