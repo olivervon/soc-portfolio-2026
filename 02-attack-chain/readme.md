@@ -78,3 +78,23 @@ The event sequence demonstrates the transition from repeated authentication fail
 The sequence of multiple 4625 events followed by a 4624 from the same source IP within a short time window is a strong indicator of successful brute force activity.
 
 This pattern should trigger alerting logic in SIEM solutions such as Microsoft Sentinel.
+
+## Lateral Movement - SMB Authentication to SRV01
+
+Using the compromised domain credentials, authentication was performed against SRV01 over SMB.
+
+Command used:
+
+rpcclient -U SOCLAB/johjoh 192.168.100.20
+
+This generated a successful authentication event on SRV01.
+
+- Event ID: 4624  
+- Logon Type: 3 (Network)  
+- Source IP: 192.168.100.50  
+
+This demonstrates lateral movement using valid domain credentials.
+
+### Evidence
+
+![lateral movement srv01](screenshots/06-lateral-movement-srv01.PNG)
