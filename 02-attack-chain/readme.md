@@ -101,6 +101,10 @@ This demonstrates lateral movement using valid domain credentials.
 
 ### Detection Considerations
 
+A successful 4624 event on a secondary host from the same source IP following a brute force sequence is a strong indicator of lateral movement using valid accounts.
+
+Correlation between hosts is critical in SIEM detection logic.
+
 ## Privilege Escalation - Local Administrator Access on SRV01
 
 To simulate privilege escalation, the compromised domain account was added to the local Administrators group on SRV01.
@@ -116,7 +120,3 @@ Administrative privileges are required to access LSASS memory for credential dum
 ### Evidence
 
 ![privilege escalation](screenshots/07-privilege-escalation.PNG)
-
-A successful 4624 event on a secondary host from the same source IP following a brute force sequence is a strong indicator of lateral movement using valid accounts.
-
-Correlation between hosts is critical in SIEM detection logic.
