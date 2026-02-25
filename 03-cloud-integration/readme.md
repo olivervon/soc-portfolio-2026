@@ -55,3 +55,5 @@ This enables cloud-based detection of authentication activity and credential dum
 ### Evidence
 
 ![dcr security log](screenshots/02-dcr-security-log.PNG)
+
+![dcr resource association](screenshots/03-dcr-resource-association.PNG)
