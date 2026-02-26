@@ -1,4 +1,4 @@
-[Back to Portfolio Overview](../readme.md)
+[<- Back to Portfolio Overview](../readme.md)
 
 # Infrastructure Deployment
 
