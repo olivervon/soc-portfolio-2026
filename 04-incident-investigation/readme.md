@@ -161,4 +161,4 @@ further host investigation and credential validation.
 The investigation phase concludes the simulated attack lifecycle,
 demonstrating detection and analysis across a hybrid SOC environment.
 
-[Back to Portfolio Overview](../readme.md)
+[Back to Portfolio Overview](../)
