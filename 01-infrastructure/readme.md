@@ -1,4 +1,5 @@
-<- [Back to Portfolio Overview](../) [02-attack-chain](../02-attack-chain/readme.md) ->
+<- [Back to Portfolio Overview](../)  
+[02-attack-chain](../02-attack-chain/readme.md) ->
 
 # Infrastructure Deployment
 
