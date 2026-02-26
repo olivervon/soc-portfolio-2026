@@ -91,3 +91,9 @@ Due to ongoing Microsoft Sentinel migration to the Defender portal, analytics ru
 However, the environment is fully prepared for detection engineering and incident creation.
 
 The primary objective of validating hybrid log ingestion and visibility was successfully achieved.
+
+## Next Phase
+
+Proceed to SOC incident investigation:
+
+[04 - Incident Investigation](../04-incident-investigation/readme.md)
