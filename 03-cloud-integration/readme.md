@@ -1,4 +1,4 @@
-[<- 02-attack-chain](02-attack-chain/readme.md)
+<- [02-attack-chain](02-attack-chain/readme.md)
 
 # Cloud Integration - Azure Arc and Microsoft Sentinel
 
@@ -98,4 +98,4 @@ The primary objective of validating hybrid log ingestion and visibility was succ
 
 Proceed to SOC incident investigation:
 
-[-> 04 - Incident Investigation](../04-incident-investigation/readme.md)
+-> [04 - Incident Investigation](../04-incident-investigation/readme.md)
