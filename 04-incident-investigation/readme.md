@@ -32,3 +32,19 @@ starting the incident simulation.
 System and user context verification.
 
 ![Environment Validation](screenshots/01-environment-validation.PNG)
+
+## Attack Simulation
+
+A scheduled task was created to simulate attacker persistence on the system.
+
+Command executed:
+schtasks /create /sc minute /mo 5 /tn WindowsUpdateCheck /tr "powershell.exe -nop -w hidden -c whoami"
+
+
+This scheduled task executes PowerShell with suspicious parameters commonly associated with attacker persistence techniques.
+
+## Evidence
+
+Scheduled task successfully created on SRV01.
+
+![Scheduled Task Created](screenshots/02-task-created.PNG)
