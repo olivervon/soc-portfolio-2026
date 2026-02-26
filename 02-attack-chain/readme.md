@@ -160,3 +160,9 @@ This behavior should trigger high-severity alerts in endpoint detection and SIEM
 5. Credential Dumping - LSASS Memory Dump (4688)
 
 This lab demonstrates a complete on-prem attack chain from initial access to credential extraction.
+
+## Next Phase
+
+Continue to cloud monitoring integration:
+
+[03 - Cloud Integration](../03-cloud-integration/readme.md)
