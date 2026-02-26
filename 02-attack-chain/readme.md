@@ -166,4 +166,4 @@ This lab demonstrates a complete on-prem attack chain from initial access to cre
 
 Continue to cloud monitoring integration:
 
--> [03-Cloud Integration](../03-cloud-integration/readme.md)
+-> [03-cloud-integration](../03-cloud-integration/readme.md)
