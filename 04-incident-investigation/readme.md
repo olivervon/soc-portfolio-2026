@@ -64,3 +64,25 @@ Verification confirmed that the scheduled task WindowsUpdateCheck
 exists on the system and is configured for execution.
 
 ![Scheduled Task Verification](screenshots/03-task-verification.PNG)
+
+## Incident Investigation
+
+The investigation phase began by reviewing Windows Security logs
+to identify suspicious persistence activity.
+
+### Step 1 - Scheduled Task Creation Detection
+
+Event ID 4698 revealed the creation of a new scheduled task
+on the system.
+
+Key observations:
+
+- Task Name: WindowsUpdateCheck
+- Creator Account: SOC\johjoh
+- Persistence mechanism identified
+
+## Evidence
+
+Security logs confirmed scheduled task creation activity.
+
+![Event ID 4698 - Scheduled Task Created](screenshots/04-event-4698-task-created.PNG)
