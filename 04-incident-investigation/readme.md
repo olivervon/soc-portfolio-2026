@@ -40,7 +40,6 @@ A scheduled task was created to simulate attacker persistence on the system.
 Command executed:  
 schtasks /create /sc minute /mo 5 /tn WindowsUpdateCheck /tr "powershell.exe -nop -w hidden -c whoami"
 
-
 This scheduled task executes PowerShell with suspicious parameters commonly associated with attacker persistence techniques.
 
 ## Evidence
@@ -86,3 +85,20 @@ Key observations:
 Security logs confirmed scheduled task creation activity.
 
 ![Event ID 4698 - Scheduled Task Created](screenshots/04-event-4698-task-created.PNG)
+
+### Step 2 - Suspicious Process Execution
+
+Event ID 4688 confirmed execution of PowerShell initiated on the system.
+
+Indicators observed:
+
+- powershell.exe execution
+- Hidden execution parameters
+- No profile usage (-nop)
+
+## Evidence
+
+Process creation logs confirmed suspicious PowerShell execution
+associated with the scheduled task activity.
+
+![Event ID 4688 - PowerShell Execution](screenshots/05-event-4688-powershell.PNG)
