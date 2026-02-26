@@ -244,4 +244,4 @@ This system will be used for:
 
 Continue to the next stage of the lab:
 
-[02 - Attack Chain ->](../02-attack-chain/readme.md)
+[-> 02 - Attack Chain](../02-attack-chain/readme.md)
