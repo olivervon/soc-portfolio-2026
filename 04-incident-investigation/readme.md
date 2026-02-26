@@ -37,7 +37,7 @@ System and user context verification.
 
 A scheduled task was created to simulate attacker persistence on the system.
 
-Command executed:
+Command executed:  
 schtasks /create /sc minute /mo 5 /tn WindowsUpdateCheck /tr "powershell.exe -nop -w hidden -c whoami"
 
 
