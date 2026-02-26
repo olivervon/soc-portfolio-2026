@@ -1,5 +1,6 @@
 <- [Back to Portfolio Overview](../)  
-<- [01-infrastructure](../01-infrastructure/readme.md)
+<- [01-infrastructure](../01-infrastructure/readme.md)  
+[03-cloud-integration](../03-cloud-integration/readme.md) ->
 
 # Attack Chain Preparation - Kali Attacker Node
 
