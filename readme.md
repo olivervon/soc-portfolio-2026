@@ -8,16 +8,15 @@ The project follows a structured SOC workflow from initial compromise to inciden
 
 ## Repository Navigation
 
-- Lab Environment
-- Environment Architecture
+- [Lab Environment](#lab-environment)
+- [Environment Architecture](#environment-architecture)
 - Repository Structure
-  - 01 - Lab Setup
-  - 02 - Attack Chain Simulation
-  - 03 - Cloud Integration
-  - 04 - Incident Investigation
-- Skills Demonstrated
-- Detection Focus
-- Project Objective
+  - [01 - Lab Setup](01-lab-setup)
+  - [02 - Attack Chain Simulation](02-attack-chain)
+  - [03 - Cloud Integration](03-cloud-integration)
+  - [04 - Incident Investigation](04-incident-investigation)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Project Objective](#project-objective)
 
 ## Lab Environment
 
