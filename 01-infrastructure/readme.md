@@ -237,3 +237,9 @@ This system will be used for:
 ### Domain Login Verification
 
 ![win10 domain login](screenshots/24-win10-domain-login.PNG)
+
+## Next Phase
+
+Continue to the next stage of the lab:
+
+➡️ [02 - Attack Chain Simulation](../02-attack-chain/README.md)
