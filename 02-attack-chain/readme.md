@@ -1,4 +1,4 @@
-<- [Back to Portfolio Overview](../../)  
+<- [Back to Portfolio Overview](../)  
 <- [01-infrastructure](../01-infrastructure/readme.md)  
 [03-cloud-integration](../03-cloud-integration/readme.md) ->
 
